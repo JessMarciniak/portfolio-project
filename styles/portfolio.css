@@ -28,7 +28,6 @@ p {
   font-family: "Poppins", sans-serif;
 }
 .social-icons {
-  color: rgba(0, 255, 255, 0.582);
   font-size: 48px;
 }
 .hero {
@@ -64,6 +63,11 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+.code-link {
+  text-align: center;
+  font-size: small;
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
