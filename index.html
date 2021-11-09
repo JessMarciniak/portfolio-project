@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jessica is a front-end engineer based in USA."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,59 +29,85 @@
       src="https://kit.fontawesome.com/31c03964c1.js"
       crossorigin="anonymous"
     ></script>
-    <title>Jessica Marciniak-Homepage</title>
+    <title>Front-end developer- Jessica Marciniak</title>
   </head>
   <body>
     <header>
       <div class="container">
-      <nav
-        class="
-          d-flex
-          justify-content-between
-          navbar navbar-expand-lg navbar-light
-          bg-white
-          fixed-top
-        "
-      >
-        <a class="navbar-brand" href="/index.html" title="Jessica Marciniak">
-          <i class="fas fa-file-code"></i> 
-          <span class="name">Jessica Marciniak</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <nav
+          class="
+            d-flex
+            justify-content-between
+            navbar navbar-expand-lg navbar-light
+            bg-white
+            fixed-top
+          "
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active disabled" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html">About </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div>
+            <a
+              class="navbar-brand"
+              href="/index.html"
+              title="Jessica Marciniak"
+            >
+              <i class="fas fa-file-code"></i>
+              <span class="name" title="Homepage Jessica Marciniak"
+                >Jessica Marciniak</span
+              >
+            </a>
+          </div>
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active disabled"
+                    href="/index.html"
+                    title="Homepage"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about.html" title="About Jessica"
+                    >About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/work.html" title="Jessica's Work"
+                    >Work
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="/contact.html"
+                    title="Contact Jessica"
+                    >Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <div class="hero text-center">
       <p>Hello, I am</p>
       <h1>Jessica Marciniak</h1>
       <h3 class="mb-3">Front-end developer based in the USA</h3>
-      <div><a href="#" class="btn btn-branding mt-5">Contact me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding mt-5">Contact me</a>
+      </div>
     </div>
     <p class="text-center">Featured Project:</p>
     <div class="container">
@@ -101,7 +131,7 @@
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#" class="btn btn-branding-outline">Yogurt App</a>
+            <a href="/work.html" class="btn btn-branding-outline">Yogurt App</a>
           </div>
         </div>
       </div>
@@ -118,7 +148,9 @@
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#" class="btn btn-branding-outline">Weather App</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Weather App</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -151,31 +183,55 @@
       </div>
     </div>
     <div class="container">
-    <footer>
-      <div class="work-inquiry-box mb-5 d-none d-md-flex">
-      <div class="contact-box d-flex justify-content-between ">
-        <div>
-        <h4>Work Inquiry</h4>
-        <p>Let's work together</p>
+      <footer>
+        <div
+          class="
+            work-inquiry-box
+            mb-5
+            d-none d-md-flex d-flex
+            justify-content-between
+          "
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+          </div>
         </div>
-        <div>
-        <a href="" class="btn btn-branding">Contact me</a>
-        </div>
-        </div>
-        </div>
+
         <div class="d-flex justify-content-center mb-3">
-      <a href="mailto:jessica@gmail.com" class="email-link">jessica@gmail.com</a>
-      </div>
-      <div class="footer social-icons d-flex justify-content-center mb-3">
-        <a href="https://www.linkedin.com/mine"><i class="fab fa-linkedin"></i
-        ></a> <a href="https://www.twitter.com/TwitterPlaceholder"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://github.com/JessMarciniak/"><i class="fab fa-github-square"></i
-        ></i></a>
-      </div>
-        <div class="code-link d-flex justify-content-center">Coded by Jessica Marciniak view code on <a href="https://github.com/JessMarciniak/portfolio-project" target="_blank">GitHub</a></div>
-      
-      
-    </footer>
+          <a
+            href="mailto:jessica@gmail.com"
+            class="email-link"
+            title="Email Jessica"
+            >jessica@gmail.com</a
+          >
+        </div>
+        <div class="footer social-icons d-flex justify-content-center mb-3">
+          <a href="https://www.linkedin.com/mine" title="LinkedIn profile"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.twitter.com/TwitterPlaceholder"
+            title="Twitter profile"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://github.com/JessMarciniak/" title="GitHub profile"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </div>
+        <div class="code-link d-flex justify-content-center">
+          Coded by Jessica Marciniak view code on
+          <a
+            href="https://github.com/JessMarciniak/portfolio-project"
+            target="_blank"
+            title="GitHub Repository"
+            >GitHub</a
+          >
+        </div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

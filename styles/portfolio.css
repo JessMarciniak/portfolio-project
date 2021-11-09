@@ -50,7 +50,7 @@ nav li {
 }
 .hero {
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-weight: bold;
@@ -115,8 +115,7 @@ nav li {
   color: var(--branding-color);
 }
 footer .email-ink {
-  text-decoration: none;
-  color: black;
+  color: red;
   text-align: center;
   font-size: 24px;
 }
@@ -165,9 +164,7 @@ footer .work-inquiry-box p {
   .btn {
     font-size: 14px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0px;
     text-align: center;

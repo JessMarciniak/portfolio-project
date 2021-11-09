@@ -29,7 +29,7 @@
   </head>
   <body>
     <header>
-        <div class="container">
+      <div class="container">
       <nav
         class="
           d-flex
@@ -38,11 +38,13 @@
           bg-white
           fixed-top
         "
-      >
-        <a class="navbar-brand" href="/index.html" title="Fatemeh Izadi">
-          <i class="fas fa-file-code"></i>
-          <span class="name ">Jessica Marciniak</span>
+      ><div>
+        <a class="navbar-brand" href="/index.html" title="Jessica Marciniak">
+          <i class="fas fa-file-code"></i> 
+          <span class="name" title="Homepage Jessica Marciniak">Jessica Marciniak</span>
         </a>
+        </div>
+      <div>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,18 +59,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Home</a>
+              <a class="nav-link " href="/index.html" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About </a>
+              <a class="nav-link " href="/about.html" title="About Jessica">About </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work </a>
+              <a class="nav-link" href="/work.html" title="Jessica's Work">Work </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  active disabled" href="/contact.html">Contact </a>
+              <a class="nav-link active disabled" href="/contact.html" title="Contact Jessica">Contact </a>
             </li>
           </ul>
+        </div>
         </div>
       </nav>
       </div>
@@ -87,15 +90,51 @@
 </div>
       </div>
     </div>
-
+<div class="container">
     <footer>
-      <div class="footer social-icons">
-        <i class="fab fa-linkedin"></i
-        ><i class="fab fa-twitter-square"
-          ><i class="fab fa-github-square"></i
-        ></i>
-      </div>
-    </footer>
+        <div
+          class="
+            work-inquiry-box
+            mb-5
+            d-none d-md-flex d-flex
+            justify-content-between
+          "
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+          <a href="mailto:jessica@gmail.com" class="email-link"
+            >jessica@gmail.com</a
+          >
+        </div>
+        <div class="footer social-icons d-flex justify-content-center mb-3">
+          <a href="https://www.linkedin.com/mine"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.twitter.com/TwitterPlaceholder"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://github.com/JessMarciniak/"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </div>
+        <div class="code-link d-flex justify-content-center">
+          Coded by Jessica Marciniak view code on
+          <a
+            href="https://github.com/JessMarciniak/portfolio-project"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
