@@ -114,7 +114,7 @@ nav li {
   font-size: small;
   color: var(--branding-color);
 }
-footer .email-ink a {
+footer .email-link {
   text-decoration: none;
   color: black;
   text-align: center;
